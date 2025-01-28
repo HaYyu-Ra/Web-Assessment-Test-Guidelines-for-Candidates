@@ -1,2 +1,56 @@
-*.csv
-*.xsl
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Next.js
+.next/
+out/
+.vercel/
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Dependency directories
+node_modules/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# build directories
+build/
+
+# Next.js specific build directories
+.next/
+out/
+
+# Package manager lock files
+package-lock.json
+yarn.lock
+
+# Coverage directory for tests
+coverage/
+
+# Testing and temporary files
+*.test.js
+*.spec.js
+*.tmp
+*.bak
