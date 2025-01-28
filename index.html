@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+</head>
+<body>
+    <h1>Food Delivery</h1>
+
+    <form>
+        <label for="food_name">Food Name:</label>
+        <input type="text" id="food_name" name="food_name" required>
+        <br><br>
+
+        <label for="food_rating">Food Rating:</label>
+        <input type="number" id="food_rating" name="food_rating" required>
+        <br><br>
+
+        <label for="food_image">Food Image URL:</label>
+        <input type="url" id="food_image" name="food_image" required>
+        <br><br>
+
+        <label for="restaurant_name">Restaurant Name:</label>
+        <input type="text" id="restaurant_name" name="restaurant_name" required>
+        <br><br>
+
+        <label for="restaurant_logo">Restaurant Logo URL:</label>
+        <input type="url" id="restaurant_logo" name="restaurant_logo" required>
+        <br><br>
+
+        <label for="restaurant_status">Restaurant Status:</label>
+        <select id="restaurant_status" name="restaurant_status" required>
+            <option value="Open Now">Open Now</option>
+            <option value="Closed">Closed</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
