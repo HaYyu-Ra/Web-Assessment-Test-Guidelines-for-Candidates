@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+  }
+  .restaurant-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .restaurant-price, .restaurant-rating {
+    font-size: 1rem;
+  }
+  .restaurant-status {
+    font-weight: bold;
+  }
+  .empty-state-message {
+    color: gray;
+    text-align: center;
+  }
+  
